@@ -1,0 +1,6 @@
+labels*.zip
+
+# ignore dirs
+labels
+output
+.ipynb_checkpoints

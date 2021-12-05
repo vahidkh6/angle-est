@@ -1,0 +1,17 @@
+# create a new conda environment
+conda create -n pendu python=3.7
+
+# install python packages
+conda install -c menpo opencv
+conda install pandas ipython scipy scikit-learn jupyter  
+
+# install appropriate version of tensorflow, with the right combination of cuda and cudnn
+# tensorflow dependencies
+# https://www.tensorflow.org/install/source#tested_build_configurations
+# because I have cuda 10.1 and cudnn 7.6
+pip install tensorflow==2.3.0
+
+# test GPU availabality:
+import tensorflow as tf
+print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
+
