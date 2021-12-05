@@ -1,6 +1,9 @@
 # create a new conda environment
 conda create -n pendu python=3.7
 
+# activate the environment
+conda activate pendu
+
 # install python packages
 conda install -c menpo opencv
 conda install pandas ipython scipy scikit-learn jupyter  

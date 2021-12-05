@@ -7,6 +7,8 @@
 - [vgg regression](https://www.pyimagesearch.com/2020/10/05/object-detection-bounding-box-regression-with-keras-tensorflow-and-deep-learning/)
 
 
+
+#### well-known DNNs info
 - VGG: color input images to be rescaled to the size of 224×224 squares.
 - InseptionV3: The model expects color images to have the square shape 299×299
 - ResNet50: The model expects color images to have the square shape 224×224.
